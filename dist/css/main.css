@@ -61,7 +61,7 @@
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
-      -webkit-transform: translate3d(0, 0, 0); }
+      transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
       color: #eece1a; }
   .menu .nav-link {
@@ -111,7 +111,18 @@
     min-height: 0; }
     ul.menu-nav.show,
     div.menu-branding.show {
-      transform: translate3d(0, 0, 0); } }
+      transform: translate3d(0, 0, 0); }
+  .menu-nav {
+    height: 75vh;
+    transform: translate3d(-100%, 0, 0);
+    font-size: 24px; }
+  .menu-branding {
+    height: 25vh;
+    transform: translate3d(100%, 0, 0); }
+    .menu-branding .portrait {
+      background: url("../img/portrait_small.JPG");
+      width: 150px;
+      height: 150px; } }
 
 @media screen and (max-width: 500px) {
   align-items: center;
