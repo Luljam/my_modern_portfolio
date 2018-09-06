@@ -89,7 +89,7 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
-@media screen and (max-width: 1171px) {
+@media screen and (min-width: 1171px) {
   align-items: center;
   text-align: center; }
 
